@@ -1,6 +1,6 @@
 const elToaster = document.getElementById("toaster");
 
-const toast = (() => {
+export const toast = (() => {
   const create = (message) => {
     const elToast = document.createElement("div");
     elToast.className = "toast";
